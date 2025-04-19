@@ -1,2 +1,2 @@
 # Events-Manager
-## ShowAler2 Used
+## ShowAlert2 & FontAwesome Used
