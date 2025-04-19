@@ -1,0 +1,140 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/white-wall-3.png');
+    background-color: #f7f7f7;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(135deg, #444444, #222222);
+    box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    margin: 0;
+    color: white;
+}
+
+.head-icon {
+    margin-left: 15px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 80px auto 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #9b9898;
+    padding: 15px;
+}
+
+.input-field  {
+    padding: 20px;
+}
+
+.input-field h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #333333;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 3px solid #a19c9c;
+    background-color: #f4f3f3;
+    box-shadow: 0 0 8px #c6cccf;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+    transition: 0.1s;
+}
+
+.input-field .add {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 5px 5px #9b9898;
+}
+
+.input-field .add:hover {
+    background-color: rgb(134, 105, 89);
+    color: white;
+}
+
+#events {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill , minmax(300px ,1fr));
+    margin-bottom: 30px;
+}
+
+.event-con {
+    background-color: #ffffff(126, 91, 49);
+    padding: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 8px;
+    box-shadow: 0px 20px 20px #cccccc;
+    color: #333333;
+}
+
+.event-con:hover {
+    border: 2px solid #d0d5d8;
+    box-shadow: 0 0 8px #0077b6;
+    background-color: #e0f7ff;
+    transition: 0.3s;
+}
+
+.event-con h3 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #0077b6;
+}
+
+.event-con p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-con p:not(:last-of-type) {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+}
+
+#delete {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+@media (max-width: 365px) {
+    h1 {
+    font-size: 25px;
+    }
+    
+}

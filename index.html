@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="download-removebg-preview (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <title>Events Manager</title>
+</head>
+<body>
+    <h1>Events Manager <i class="fa-solid fa-calendar-check head-icon fa-1x"></i></h1>
+    <div class="container">
+        <div class="input-field">
+            <h2>Add Your Events</h2>
+            <input type="text" id="event-name" placeholder="Event Name">
+            <input type="text" id="org-name" placeholder="Organizer Name">
+            <input type="date" id="event-date">
+            <button class="add" onclick="addEvent()">Add Event</button>
+        </div>
+    </div>
+    <div id="events">
+        
+    </div>
+    
+</body>
+    <script src="main.js"></script>
+    <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+</html>
